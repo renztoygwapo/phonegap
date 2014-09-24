@@ -250,8 +250,8 @@ font-size: 14px;}
 padding-bottom: 12px;}
 .menu-slide-cont h2 span{color:#0d929e;}
 
-.header{background:#1F323B; position:fixed; width:100%; padding-top:20px; z-index:100}
-.header-title{height:50px; font-size:26px; text-align:center; color:#ffffff; position:relative; width:100%; line-height:46px; font-family:'MyriadPro-Light';}
+.header{background:#1F323B; position:fixed; width:100%; padding-top:16px; z-index:100}
+.header-title{height:50px; font-size:20pt; text-align:center; color:#ffffff; position:relative; width:100%; line-height:46px; font-family:'MyriadPro-Light';}
 .header-title .fa-plus-circle{font-size:23px; color:#0d929e; position:absolute; right:20px; top:12px;}
 .header-tab{background:#f2f2f2; border-bottom:1px solid #c5c5c5; height:52px; text-align:center;}
 .header-tab li{font-family: 'MyriadPro-Regular'; font-size:14px; display:inline-block; padding-top:10px; vertical-align:top;}
@@ -298,7 +298,7 @@ padding-bottom: 12px;}
 .title{background: #f2f2f2; line-height:40px;}
 .title h2{color:#000000; font-size:18px; font-family: 'MyriadPro-Semibold'; text-transform:uppercase;}
 .job-detail-title{}
-.row{padding:10px 18px; border-bottom:1px solid #dddddd; color:#1f323b; min-height:40px; position:relative;}
+.row{padding:10px 18px; border-bottom:1px solid #dddddd; color:#1f323b; min-height:40px; position:relative; padding-bottom: 3px;}
 .even-bg{background:#f2f2f2;}
 .select-compnay h2{width:80%; color:#0d929e; font-family:'MyriadPro-Regular'; font-size:21px; padding-top:10px;}
 .job-detail-cont .fa-plus-circle{color:#0d929e; font-size:30px; position:absolute; right:20px; top:13px;}
@@ -312,7 +312,11 @@ padding-bottom: 12px;}
 :-moz-placeholder { color:#cccccc; opacity:1} /* FF 18- */
 :-ms-input-placeholder { color:#cccccc; opacity:1}
 
-input[type="text"], input[type="tel"], input[type="number"], input[type="email"],textarea {width:100%; padding:0px 0px; border:0px; font-family:'MyriadPro-Light'; font-size:18px; background:none; color:#000000;}
+input[type="text"], input[type="tel"], input[type="number"], input[type="email"],textarea {width:100%; padding:0px 0px; border:0px; font-family:'MyriadPro-Light';font-size: 17.52px;
+background: none;
+color: #000000;
+margin-left: 15px;
+margin-top: 10px;}
 
 input[type="date"],input[type="time"] {width:100%; padding:0px 0px; border:0px; font-family:'MyriadPro-Light'; font-size:18px; color:#000000; line-height: 20px; height: 30px;}
 
