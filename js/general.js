@@ -109,6 +109,13 @@ $(document).ready(function(e) {
 	$('.get-qoute').click(function(){
 		window.location	= "get_qoute.html";
 	});
+	$('#get-qoutes').click(function(){
+		window.location	= "jobmenu.html";
+	});
+	$('#jobs').click(function(){
+		window.location	= "job.html";
+	});
+
 	
 
 	/*$('input[type="text"]').each(function(index, element) {
