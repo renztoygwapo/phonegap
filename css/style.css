@@ -372,7 +372,7 @@ input[type="text"].icons-textfild, input[type="tel"].icons-textfild, input[type=
 .event-cont-area .row{line-height:38px;}
 .event-cont-area .job-detail-title{ padding-top:3px;}
 .event-cont-area .priority{ margin-top:8px; padding:4px 12px; border:0px; font-size:12px; line-height:14px;}
-.total-rate{color:#0d929e; font-size:22px; display:inline-block; float:right; font-family:'MyriadPro-Regular';}
+.total-rate{float: right;font-weight: bolder;font-size: 18px;margin-top: -10px;}
 .event-cont-area .detail-remark{ padding-left:0px;}
 /*.event-cont-area .title h2, .title h3, .title h4{ padding-top:2px;}*/
 .event-cont-area .title h4{ padding-left:0px;}
@@ -448,10 +448,10 @@ input[type="text"].icons-textfild, input[type="tel"].icons-textfild, input[type=
 .invoice-list li{ padding: 10px 0; border-bottom: 1px solid #dddddd; color: #1f323b; float:left; width:100%; } 
 .invoice-list li .invoice-left { width:65%; float:left; }
 .invoice-list li .invoice-right { width:35%; float:right; }
-.invoice-list li .invoice-left h2 { font-size:18px; font-family:'MyriadPro-Regular'; margin-bottom:10px; }
-.invoice-title { margin-left:10px;}
+.invoice-list li .invoice-left h2 { font-size:18px; font-family:'MyriadPro-Regular'; margin-bottom:10px; margin-top: -10px;}
+.invoice-title {margin-left: 11px;color: #000000;font-size: 13.05pt;font-weight: bolder;}
 .invoice-list .priority{ min-width:40px; text-align:center; }
-.invoice-list .priority.viewed { background-color:#f2cd4f; }
+.invoice-list .priority.viewed { background-color:#f2cd4f; min-width: 40px;text-align: center;padding-bottom: 0px;padding-top: 0px;}
 
 .invoice-head.header-tab li em { text-align:left; }
 .invoice-head.header-tab li.prority { width:auto; margin-right: 15px; }
@@ -701,3 +701,7 @@ fieldset p{}
 
 /* End Additional 2
 --------------------------------------------------------------------------------------------------*/
+input::-webkit-input-placeholder {
+   color: black;
+   font-size: 16px;
+}
